@@ -1,0 +1,33 @@
+/*
+* Table Layout 
+*/
+@media only screen and (min-width: 200px) and (max-width: 761px){
+    .top_header_area .social_area ul li{ margin-right: 8px;}
+    .main_header_area{ padding: 40px 0;}
+    .main_header_area .nav_area{display: none;}
+    .slider_container .slider_item{ height: 291px;}
+    .inner_welcome .welcome_text_container h1{font-size: 46px;}
+    .inner_welcome .welcome_text_container h1 span{font-size: 66px;}
+    .inner_welcome .welcome_text_container p{font-size: 22px;}
+    .inner_welcome .welcome_text_container .welcome_btn a{ font-size: 18px;} 
+}
+/*
+* Mobile Layout 
+*/
+@media only screen and (min-width: 200px) and (max-width: 480px){
+    .top_header_area .social_area ul li{ margin-right: 5px;}
+    .main_header_area{ padding: 30px 0;}
+    .main_header_area .nav_area{display: none;}
+    .slider_container .slider_item{ height: 180px;}
+    .inner_welcome .welcome_text_container h1{font-size: 36px;}
+    .inner_welcome .welcome_text_container h1 span{font-size: 56px;}
+    .inner_welcome .welcome_text_container p{font-size: 20px;}
+    .inner_welcome .welcome_text_container .welcome_btn a{ font-size: 16px;} 
+    .inner_service .left_service {width: 100%;}
+    .inner_service .right_service {width: 100%;}
+    .inner_footer .footer_item {width: 96%;margin: 15px 1%;}
+    .inner_copyright {padding: 10px;}
+    .inner_copyright .right_copyright {float: left;}
+    .inner_copyright .left_copyright  p {line-height: 1.5rem;}
+    .inner_copyright .right_copyright  p {line-height: 1.5rem;}
+}
